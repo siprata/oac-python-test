@@ -5,10 +5,10 @@ import pandas as pd
 #Read the Files
 
 #NETWORK
-df1 = pd.read_excel("https://objectstorage.us-ashburn-1.oraclecloud.com/n/idhzcjmyisms/b/CloudWorldDemo/o/", "Input_Test.xlsx")
+df1 = pd.read_excel("oci://CloudWorldDemo/Input_Test.xlsx")
 
 #Assign to another file
 
 result=df1
 
-result.to_excel("https://objectstorage.us-ashburn-1.oraclecloud.com/n/idhzcjmyisms/b/CloudWorldDemo/o/Output_Test.xlsx")
+result.to_excel("oci://CloudWorldDemo/Output_Test.xlsx")
