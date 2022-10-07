@@ -1,6 +1,6 @@
 schema_version: 20180708
 name: oac_upload_test
-version: 0.0.8
+version: 0.0.9
 runtime: python3.6
 build_image: fnproject/python:3.6-dev
 run_image: fnproject/python:3.6
